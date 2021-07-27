@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd zelda && zip -9 -r zelda.love . && mv zelda.love .. && cd .. && rm -r zelda-web && love.js zelda.love ./zelda-web --title "Zelda" --memory 136000000 -c && cp consolewrapper.js webdb.js zelda-web && cd zelda-web
+sed -i 's~<footer>~<script src="webdb.js"></script>\n    <script src="consolewrapper.js"></script>\n    <footer>~' index.html
+if [ "$1" = "chrome" ];then sed -i 's/Atomics.notify/Atomics.wake/' love.js; fi
+sed -i 's~console.info~//console.info~' game.js
+python3 -m http.server 3000
+cd ..
