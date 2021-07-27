@@ -1,10 +1,10 @@
-# discountZelda
-![discountZelda](https://raw.githubusercontent.com/c-al3x/discountzelda/main/screenshot.png?token=ATCAC2J2ETT3XCM5IHAYIHDAMLAQI)
+# The Legend of Trinity
+![The Legend of Trinity](https://raw.githubusercontent.com/c-al3x/The-Legend-of-Trinity/main/screenshot.png)
 
 An open-source multiplayer dungeon crawler video game inspired by the original Legend of Zelda!
 
 Play the game here:
-https://game.trinity.ix.tc
+http://legendof.trinity.ix.tc
 
 We are currently in the very beginning stages of game development.
 
@@ -29,19 +29,19 @@ Assuming, you now have the engine installed, simply copy and paste one of the fo
 ### MacOS
 
 ```
-git clone https://github.com/c-al3x/discountzelda.git && open discountzelda/zelda.love
+git clone https://github.com/c-al3x/The-Legend-of-Trinity.git && open The-Legend-of-Trinity/zelda.love
 ```
 
 ### Windows
 
 ```
-git clone https://github.com/c-al3x/discountzelda.git && ./discountzelda/zelda.love
+git clone https://github.com/c-al3x/The-Legend-of-Trinity.git && ./The-Legend-of-Trinity/zelda.love
 ```
 
 ### Linux
 
 ```
-git clone https://github.com/c-al3x/discountzelda.git && xdg-open discountzelda/zelda.love
+git clone https://github.com/c-al3x/The-Legend-of-Trinity.git && xdg-open The-Legend-of-Trinity/zelda.love
 ```
 
 ## Current Tips
