@@ -42,7 +42,7 @@ function love.load()
     --	    getServerData();
     --	]]
     --))
-    client = require("lib/websocket").new("game.trinity.ix.tc", 8082)
+    client = require("lib/websocket").new("legendof.trinity.ix.tc", 8082)
     --client = require("lib/websocket").new("127.0.0.1", 8082)
     function client:onmessage(message)
 	--if message then print("The message: "..message) else return end
