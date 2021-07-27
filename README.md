@@ -4,7 +4,7 @@
 An open-source multiplayer dungeon crawler video game inspired by the original Legend of Zelda!
 
 Play the game here:
-https://game.trinity.ix.tc
+http://legendof.trinity.ix.tc
 
 We are currently in the very beginning stages of game development.
 
