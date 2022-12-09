@@ -37,7 +37,7 @@ require 'src/states/game/StartState'
 
 gTextures = {
     ['tiles'] = love.graphics.newImage('graphics/tilesheet.png'),
-    ['background'] = love.graphics.newImage('graphics/background2.png'),
+    ['background'] = love.graphics.newImage('graphics/background.jpeg'),
     ['character-walk'] = love.graphics.newImage('graphics/character_walk.png'),
     ['character-swing-sword'] = love.graphics.newImage('graphics/character_swing_sword.png'),
     ['hearts'] = love.graphics.newImage('graphics/hearts.png'),

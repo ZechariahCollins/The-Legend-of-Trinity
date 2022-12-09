@@ -43,11 +43,11 @@ function StartState:render()
     --love.graphics.setFont(gFonts['zelda'])
     --love.graphics.setColor(34/255, 34/255, 34/255, 1)
     love.graphics.setColor(0/255, 0/255, 0/255, 1)
-    love.graphics.printf('The Legend of Trinity', 2, WINDOW_HEIGHT / 2 - 32, WINDOW_WIDTH, 'center')
+    love.graphics.printf('The Legend of Kevin and Zach', 2, WINDOW_HEIGHT / 2 - 32, WINDOW_WIDTH, 'center')
 
     --love.graphics.setColor(175/255, 53/255, 42/255, 1)
     love.graphics.setColor(0/255, 0/255, 0/255, 1)
-    love.graphics.printf('The Legend of Trinity', 0, WINDOW_HEIGHT / 2 - 32, WINDOW_WIDTH, 'center')
+    love.graphics.printf('The Legend of Kevin and Zach', 0, WINDOW_HEIGHT / 2 - 32, WINDOW_WIDTH, 'center')
 
     love.graphics.setColor(1, 1, 1, 1)
     love.graphics.setFont(love.graphics.newFont(16))
